@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Películas y Series</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Enlace al CSS -->
+</head>
+<body>
+    <div class="container">
+        <h1>Películas y Series</h1>
+
+        <!-- Selector para filtrar por categoría -->
+        <select name="categorias" id="categorias">
+            <option value="0">Todos</option>
+            <option value="1">Película</option>
+            <option value="2">Serie</option>
+            <option value="3">Documental</option>
+        </select>
+
+        <!-- Botón para filtrar -->
+        <button id="boton">Filtrar</button>
+
+        <!-- Lista de películas/series/documentales -->
+        <ul id="event-list"></ul>
+    </div>
+
+    <script src="main.js"></script> <!-- Enlace al JS -->
+</body>
+</html>
+
